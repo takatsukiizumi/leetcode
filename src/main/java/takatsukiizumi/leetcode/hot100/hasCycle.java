@@ -1,6 +1,9 @@
-package takatsukiizumi.leetcode.hot100.entity;
+package takatsukiizumi.leetcode.hot100;
 
-import java.util.*;
+import takatsukiizumi.leetcode.hot100.entity.ListNode;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @Description: 环形链表

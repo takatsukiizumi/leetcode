@@ -59,7 +59,7 @@ public class majorityElement {
         }
         return count;
     }
-    //随机化
+
     public int majorityElement3(int[] nums) {
         Random rand = new Random();
 

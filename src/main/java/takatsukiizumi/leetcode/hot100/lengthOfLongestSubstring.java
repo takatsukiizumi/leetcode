@@ -1,5 +1,9 @@
 package takatsukiizumi.leetcode.hot100;
 
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,7 +17,7 @@ import java.util.Set;
 //
 //单词 是指仅由字母组成、不包含任何空格字符的最大子字符串。
 
-public class lengthOfLongestSubstring {
+public class lengthOfLongestSubstring  {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> temp = new HashSet<Character>();
         int rk =0,ans=0,n=s.length();
@@ -29,4 +33,6 @@ public class lengthOfLongestSubstring {
         }
         return ans;
     }
+
+
 }

@@ -1,14 +1,7 @@
 package takatsukiizumi.leetcode.hot100;
 
-import lombok.val;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-
 public class bestTimeToSellStock {
-
+//买卖股票的最佳时间点
     public int maxProfit(int[] prices) {
         int maxprofit = 0;
         for (int k = 0; k < prices.length; k++) {

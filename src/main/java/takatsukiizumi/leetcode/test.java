@@ -1,29 +1,20 @@
 package takatsukiizumi.leetcode;
 
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationRunner;
-import takatsukiizumi.leetcode.hot100.bestTimeToSellStock;
-import takatsukiizumi.leetcode.hot100.entity.ListNode;
-import takatsukiizumi.leetcode.hot100.generateParenthesis;
-import takatsukiizumi.leetcode.hot100.majorityElement;
-import takatsukiizumi.leetcode.hot100.reverseList;
-import takatsukiizumi.leetcode.philosopher_eating_problem.chopsticks;
-import takatsukiizumi.leetcode.philosopher_eating_problem.philosopher;
+import takatsukiizumi.leetcode.hot100.*;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 
 public class test {
     public static void main(String[] args)  throws InterruptedException {
-        bestTimeToSellStock stock = new bestTimeToSellStock();
-        int [] prices = {7,1,5,3,6,4};
-        int max = stock.maxProfit(prices);
-        System.out.println(max);
-
-
-
+//        bestTimeToSellStock stock = new bestTimeToSellStock();
+//        int [] prices = {7,1,5,3,6,4};
+//        int max = stock.maxProfit(prices);
+//        System.out.println(max);
+//        moveZeroes move = new moveZeroes();
+//        int []nums = {0,1,0,3,12};
+//        move.moveZeroes(nums);
+//        System.out.println(Arrays.toString(nums));
 
 //        generateParenthesis gen = new generateParenthesis();
 //        List<String> ans2 = gen.generateParenthesis(2);
@@ -66,10 +57,24 @@ public class test {
 //        p4.start();
 //        p5.start();
 
+//        Integer i1 = 100;
+//        Integer i2 = 100;
+//        Integer i3 = 200;
+//        Integer i4 = 200;
+//        System.out.println(i1 == i2);
+//        System.out.println(i3 == i4);
+
+//        findAllNumbersDisappearedInAnArray find = new findAllNumbersDisappearedInAnArray();
+//        int[] nums = {4,3,2,7,8,2,3,1};
+//        List<Integer> disappearedNumbers = find.findDisappearedNumbersBest(nums);
+//        for(Integer i : disappearedNumbers){
+//            System.out.println(i);
+//        }
+
+        hammingDistance han = new hammingDistance();
+        int i = han.hammingDistance(1, 4);
+        System.out.println(i);
+
 
     }
-
-
-
-
 }

@@ -31,7 +31,9 @@ public class RedissionTheory {
     //RCountDownLatch - Redis的分布式计数器实现。
     //RTopic - Redis的发布/订阅实现，支持分布式。
     //RLiveObject - Redis的对象存储实现，支持JPA和POJO。
-    //master1
-    //master2
-    //master3
+    //branch1
+    //branch2
+    //branch3
+    //branch4
+    //branch5
 }

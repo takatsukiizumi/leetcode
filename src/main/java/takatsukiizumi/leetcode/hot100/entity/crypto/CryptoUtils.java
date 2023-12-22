@@ -1,4 +1,4 @@
-package takatsukiizumi.leetcode.crypto;
+package takatsukiizumi.leetcode.hot100.entity.crypto;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
